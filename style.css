@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width:1000px){
+    .searchBox{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .bas{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .cmore{
+        display: none;
+    }
+}
+
+body{
+    background-color: rgb(242, 242, 242);
+}
+
+nav li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height : 60px;
+    margin: 0px 10%;
+    
+}
+nav{
+    background-color: #2874f0;
+    
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+#cart, #more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoImg{
+    height: 25px;
+}
+
+#search{
+    height: 25px;
+    border: 0 ;
+    outline: 0 none;
+    width: 100%;
+}
+.searchBox{
+    width: 40%
+}
+
+nav ul li input{
+    padding: 5px 10px;
+}
+
+#login{
+    background-color: white;
+    color: #2874f0;
+    font-weight: 600;
+    border: 0px;
+    height: 30px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10%;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.categoryImg{
+    height : 80px;
+}
+
+.categoryTxt{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.categoryInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentOffers{
+    width:auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 35vh;
+    background-color: white;
+    margin: 10px;
+}
+
+.bankOffers{
+    width:auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 20vh;
+    background-color: white;
+    margin: 10px;
+}
+
+.currentOffers img{
+    height : 32vh;
+}
+
+.bankOffers img{
+    height : 75%;
+}
+
+.currentOffers button{
+    background-color: grey;
+    height: 10vh;
+    border: none;
+    width: 3vw;
+    color: white;
+}
+
+.topOffers button{
+    background-color: grey;
+    height: 40px;
+    border: none;
+    width: 40px;
+    color: white;
+}
+
+.topOffers{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offers{
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+.heading{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+}
+
+footer{
+    height: 100px;
+    margin-top: 50px;;
+    background-color: #2874f0;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+}
